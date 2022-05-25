@@ -1,0 +1,70 @@
+.banner{
+    width: 100vw;
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contentData{
+    margin: 0 5em;
+}
+
+/* 
+    Header
+*/
+.headerMovie .textMovie{
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 1.5em;
+}
+
+/* 
+    Info
+*/
+.contentInfo{
+    padding-bottom: 2em;
+}
+.contentInfo .title{
+    font-size: 4.2em;
+}
+.contentInfo .description{
+    font-size: 1.2em;
+    width: 50%;
+    margin-top: .5em;
+}
+
+/* 
+    Buttons
+*/
+.contentButtons{
+    display: flex;
+    justify-content: space-between;
+}
+.contentButtons .contentBtnMovie button{
+    font-size: 1.1em;
+    margin-right: .5em;
+    padding: .6em;
+    border-radius: .2em;
+    font-weight: 600;
+}
+/* Play */
+.contentButtons .contentBtnMovie .btnPlay{
+    background-color: #fff;
+    color: #000;
+}
+/* Info */
+.contentButtons .contentBtnMovie .btnInfo{
+    background-color: rgba(134, 116, 83, 0.616);
+}
+/* Volumen */
+.contentVolumen .age{
+    font-size: 1.1em;
+}
+.contentVolumen .separador{
+    margin: 0 .3em;
+}
